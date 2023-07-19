@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="1" tests="1" time="0.088">
+    <testcase classname="Comments" name="Get all comments" time="0.031">
+        <skipped><![CDATA[When I get all comments from the commnets service...........................undefined
+Then the response code is 200...............................................undefined
+And the comments details are returned correctly.............................undefined
+]]></skipped>
+    </testcase>
+</testsuite>

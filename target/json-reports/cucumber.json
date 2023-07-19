@@ -1,0 +1,65 @@
+[
+  {
+    "line": 8,
+    "elements": [
+      {
+        "start_timestamp": "2023-07-19T15:28:29.029Z",
+        "line": 9,
+        "name": "Get all comments",
+        "description": "",
+        "id": "comments;get-all-comments",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 10,
+            "name": "I get all comments from the commnets service",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "the response code is 200",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "the comments details are returned correctly",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@api"
+          }
+        ]
+      }
+    ],
+    "name": "Comments",
+    "description": "",
+    "id": "comments",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Dummy/Comments.feature",
+    "tags": [
+      {
+        "name": "@api",
+        "type": "Tag",
+        "location": {
+          "line": 7,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
